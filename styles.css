@@ -29,7 +29,7 @@ body {
   color: var(--body);
   font-family: var(--sans);
   font-size: 16px;
-  line-height: 23px;
+  line-height: 21px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -56,7 +56,7 @@ body {
 main {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 70px 40px 90px;
+  padding: 18px 40px 28px;
 }
 
 /* Intro: photo + identity */
@@ -65,30 +65,30 @@ main {
   grid-template-columns: 170px 1fr;
   gap: 40px;
   align-items: start;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .intro .photo img { width: 100%; max-width: 170px; height: auto; display: block; }
 
 .name {
   font-family: var(--sans);
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 1.1;
   color: var(--ink);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .affil, .interest, .contact { color: var(--ink); font-weight: 700; }
 .affil { margin-bottom: 4px; }
 .affil .line { display: block; }
-.interest { margin-top: 14px; }
+.interest { margin-top: 10px; }
 .contact { margin-top: 2px; }
 .contact a.email { color: inherit; font-weight: 700; text-decoration: none; }
 .contact a.email:hover { text-decoration: underline; }
 
 .cv-button {
   display: inline-block;
-  margin-top: 24px;
-  padding: 12px 26px;
+  margin-top: 16px;
+  padding: 10px 24px;
   font-family: var(--sans);
   font-size: 12px;
   font-weight: 700;
@@ -102,7 +102,7 @@ main {
 .cv-button:hover { opacity: 0.6; }
 
 /* ---------- Section titles (Droid Serif, underlined) ---------- */
-section { margin-bottom: 44px; }
+section { margin-bottom: 14px; }
 h2.section-title {
   font-family: var(--serif);
   font-weight: 700;
@@ -111,11 +111,11 @@ h2.section-title {
   color: var(--ink);
   text-decoration: underline;
   text-underline-offset: 3px;
-  margin-bottom: 26px;
+  margin-bottom: 10px;
 }
 
 /* ---------- Entries ---------- */
-.entry { margin-bottom: 22px; color: var(--body); }
+.entry { margin-bottom: 9px; color: var(--body); }
 /* whole-line bold underlined link, matching the original */
 .entry a {
   color: inherit;
@@ -135,7 +135,7 @@ h2.section-title {
 .site-footer .inner {
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 26px 40px;
+  padding: 16px 40px;
   font-size: 12px;
   letter-spacing: 0.03em;
   color: rgba(0, 0, 0, 0.5);
